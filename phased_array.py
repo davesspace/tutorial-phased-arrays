@@ -210,3 +210,4 @@ def update(frame_number):
 if __name__ == "__main__":
     ani = FuncAnimation(fig, update, init_func=init,
                         interval=1000/FPS, blit=True)
+    plt.show()
